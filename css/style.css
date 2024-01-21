@@ -6,12 +6,17 @@
   /* font-size: 1rem; */
 }
 
+body {
+  color: greenyellow;
+}
+
 .bgImgMap {
-  background-image: url(../img/map6-erased.png);
+  background-image: url(../img/map6-changedColor2.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
-  background-color: #E0C1FF;
+  /* background-color: #E0C1FF; */
+  background-color: #110B0B;
 }
 
 h1 {
