@@ -97,7 +97,7 @@ h1 {
   display: flex;
   flex-flow: row;
   /* margin: auto; */
-  gap: 50%;
+  gap: 25%;
   /* padding-top: 100px; */
   /* padding-right: 300px; */
   padding-bottom: 5px;
