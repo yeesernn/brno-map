@@ -13,12 +13,13 @@ body {
 }
 
 .bgImgMap {
-  background-image: url(../img/map6-changedColor2.png);
+  /* background-image: url(../img/map6-changedColor2.png); */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
   /* background-color: #E0C1FF; */
   background-color: #110B0B;
+  height: 100vh;
 }
 
 a {
@@ -32,92 +33,4 @@ a {
   grid-column: 3/5;
   grid-row: 2/4;
   /* border: solid 2px blue; */
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . .";
-    /* 11 rows and 14 columns */
-  /* border: solid 3px red; */
-  height: 100vh;
-  width: 100vw;
-}
-
-.about {
-  grid-column: 11/12;
-  grid-row: 8/9;
-}
-
-.hlavni {
-  height: 90px;
-  grid-column: 7/8;
-  grid-row: 8/9;
-}
-
-.zelny {
-  height: 90px;
-  grid-column: 5/6;
-  grid-row: 6/7;
-}
-
-.dam {
-  width: 90px;
-  grid-column: 2/3;
-  grid-row: 3/4;
-}
-
-.building {
-  height: 90px;
-  grid-column: 9/10;
-  grid-row: 5/6;
-}
-
-.street {
-  width: 90px;
-  grid-column: 8/9;
-  grid-row: 2/3;
-}
-
-.ceska {
-  height: 90px;
-  grid-column: 7/8;
-  grid-row: 4/5;
-}
-
-.luzanky {
-  width: 90px;
-  grid-column: 10/11;
-  grid-row: 3/4;
-}
-
-.tram {
-  width: 90px;
-  grid-column: 4/5;
-  grid-row: 4/5;
-}
-
-.focus {
-  transition: all 0.1s ease;
-  border: 2px solid rgb(0, 0, 0, 0);
-  border-radius: 50%;
-  filter: brightness(90%);
-}
-
-.focus:hover {
-  border: none;
-  border-radius: 0%;
-  filter: brightness(130%);
 }
