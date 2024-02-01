@@ -62,49 +62,50 @@ a {
 }
 
 .hlavni {
-  height: 90px;
+  /* height: 90px; */
+  height: 6em;
   grid-column: 7/8;
   grid-row: 8/9;
 }
 
 .zelny {
-  height: 90px;
+  height: 6em;
   grid-column: 5/6;
   grid-row: 6/7;
 }
 
 .dam {
-  width: 90px;
+  width: 6em;
   grid-column: 2/3;
   grid-row: 3/4;
 }
 
 .building {
-  height: 90px;
+  height: 6em;
   grid-column: 9/10;
   grid-row: 5/6;
 }
 
 .street {
-  width: 90px;
+  width: 6em;
   grid-column: 8/9;
   grid-row: 2/3;
 }
 
 .ceska {
-  height: 90px;
+  height: 6em;
   grid-column: 7/8;
   grid-row: 4/5;
 }
 
 .luzanky {
-  width: 90px;
+  width: 6em;
   grid-column: 10/11;
   grid-row: 3/4;
 }
 
 .tram {
-  width: 90px;
+  width: 6em;
   grid-column: 4/5;
   grid-row: 4/5;
 }

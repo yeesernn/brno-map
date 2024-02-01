@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Metrophobic", sans-serif;
   /* font-family: 'Raleway', 'Verdana', sans-serif; */
-  /* font-size: 1rem; */
   color: greenyellow;
 }
 
@@ -13,11 +12,9 @@ body {
 }
 
 .bgImgMap {
-  /* background-image: url(../img/map6-changedColor2.png); */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
-  /* background-color: #E0C1FF; */
   background-color: #110B0B;
   height: 100vh;
   margin-top: 30px;
@@ -47,5 +44,4 @@ a:hover {
   text-align: center;
   grid-column: 3/5;
   grid-row: 2/4;
-  /* border: solid 2px blue; */
 }
